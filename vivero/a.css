@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    letter-spacing: .5px;
+}
+
+.baner {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    line-height: 80px;
+}
+.img{
+    height: 4%;
+    width: 2%;
+    margin-left: 95%;
+    position: fixed;
+    margin-top: 5%;
+    filter: invert(86%) sepia(100%) saturate(21%) hue-rotate(293deg) brightness(105%) contrast(108%);
+}
+.cont{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 3%;
+}
+.cuadro{
+    justify-content: center;
+    align-items: center;
+    height: 27vh;
+    width: 100%;
+    background-color: #fafafa;
+    /*border: solid black 1px;*/
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px rgba(206, 110, 110, 0.7);
+    transition: all .3s ease-in-out;
+    background-color: rgb(212, 209, 209);
+    height:600px;
+    width: 68%;
+    margin: auto;
+    border-radius: 20px;    
+    margin-bottom: 10%;
+
+}
+.imga{
+height: 400px;
+}
+.titulo{
+    font-size:  1.7em;
+    font-weight: bold;
+    text-align: center;
+}
+.precio{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+button{
+    align-items: center;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-left: 85px;
+}
